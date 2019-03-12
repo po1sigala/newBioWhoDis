@@ -1,0 +1,123 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+
+  margin: 0px 50px 0px 50px
+}
+
+
+*
+{
+	background: whitesmoke
+}
+
+#myName
+{
+background-color: teal;
+border: 5px solid teal;
+color: whitesmoke;
+position: relative;
+/* float: left; */
+left: 100px;
+font-style: bold;
+font-size: 50px;
+width: 250px;
+text-align: center
+}
+
+#heading
+{
+  border-bottom: 3px solid grey;
+  border: top 0;
+  background:lightblue
+}
+
+h1
+{
+}
+h2
+{
+	font-size: 50px;
+	color: teal;
+	padding: 1em;
+	border-bottom: 2px solid grey;
+}
+.links
+{
+	font-size: 25px;
+	background: lightblue;
+}
+
+#portfolio
+{
+  position:fixed;
+  left: 60%;
+}
+#about
+{
+	position: fixed;
+	left: 70%;
+}
+
+#contact
+{
+	position: fixed;
+	left: 80%;
+}
+#biography
+{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+#profilePic
+{
+	float:left;
+	padding: 20px;
+}
